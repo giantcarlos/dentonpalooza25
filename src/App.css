@@ -157,3 +157,84 @@ nav {
   filter: invert(1) hue-rotate(180deg) grayscale() brightness(160%);
   transform: scale(1.475);
 }
+
+.image-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 50rem;
+  margin: 0 auto;
+}
+.pic {
+  position: absolute;
+  top: 0;
+  margin-left: 7.5%;
+  margin-right: auto;
+  width: 85%;
+  height: 85%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation: fade 17s infinite;
+  animation: fade 17s infinite;
+}
+#pic1 {
+  animation-delay: 0s;
+  background-image: url('https://i.imgur.com/DUZSdY5.png');
+  filter: grayscale() sepia(25%);
+  box-shadow: 0 0 7px 7px black inset;
+}
+#pic2 {
+  background-image: url('https://i.imgur.com/7xo7Qtd.png');
+  animation-delay: 4.25s;
+  filter: grayscale() sepia(25%);
+  box-shadow: 0 0 7px 7px black inset;
+}
+#pic3 {
+  background-image: url('https://i.imgur.com/qS8S6Hb.png');
+  animation-delay: 8.5s;
+  filter: grayscale() sepia(25%);
+  box-shadow: 0 0 7px 7px black inset;
+}
+#pic4 {
+  background-image: url('https://i.imgur.com/nO380Nj.jpeg');
+  animation-delay: 12.75s;
+  filter: grayscale() sepia(25%);
+  box-shadow: 0 0 7px 7px black inset;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  19% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

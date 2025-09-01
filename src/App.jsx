@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Sponsors from './components/Sponsors';
+import Images from './components/Images';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <NavBar />
         </header>
           <Sponsors />
+          <Images />
       </div>
     </BrowserRouter>
     </>
