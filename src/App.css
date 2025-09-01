@@ -1,3 +1,26 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: Arial Black;
+  src: url('../Arial-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Arial Black;
+  src: url('../Arial-Black-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: Arial Black, Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: rgb(220, 220, 220);
+  text-align: center;
+  overflow-x: hidden;
+}
