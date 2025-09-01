@@ -37,9 +37,9 @@ const NavBar = () => {
         hidden: { y: -200 },
         show: { y: 0 },
       }
-      
+
     return (
-        <nav style={{ padding: '1rem', background: '#222', color: '#fff' }}>
+        <nav>
             <motion.div variants={item} initial="hidden" animate="show" transition={{duration: 1, delay:.75}} className="header">DENTONPALOOZA 5
                 <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
