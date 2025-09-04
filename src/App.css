@@ -43,6 +43,7 @@ nav a:hover {
   color: #eeeeee;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+  text-decoration: none;
 }
 
 nav {
@@ -97,7 +98,6 @@ nav {
   transition: 0.5s ease-in-out;
   transform: translateX(100%);
   z-index: 10;
-  
 }
 
 .nav-links-active {
