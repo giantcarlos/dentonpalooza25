@@ -245,7 +245,7 @@ nav {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
   margin-right: 8%;
@@ -256,18 +256,20 @@ nav {
 }
 
 .footer-left {
-  grid-column: 2;
+  grid-column: span 2;
   grid-row: 1;
   display: flex;
   text-align: left;
   flex-direction: column;
-  margin-left: 7rem;
-  line-height: .9rem;
+  margin-left: 10rem;
+  font-family: Arial Black;
+  font-size: 2rem;
 }
 
 .footer-mid {
   grid-column: 3;
   grid-row: 1;
+  margin-left: 7rem;
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -277,6 +279,7 @@ nav {
 .footer-right {
   grid-column: 4;
   grid-row: 1;
+  margin-left: 7rem;
   display: flex;
   text-align: left;
   flex-direction: column;
@@ -286,7 +289,6 @@ nav {
 .footer-last {
   grid-column: 5;
   grid-row: 1;
-  margin-right: 5rem;
 }
 
 .footer-icon {
@@ -303,18 +305,16 @@ nav {
 
 .footer-bottom {
   grid-row: 2;
-  grid-column: span 3;
-  margin-top: 12rem;
-  margin-left: -20rem;
-}
-
-.footer-dev {
-  grid-row: 2;
-  grid-column: span 2;
+  grid-column: 1 / span 2;
   margin-top: 12rem;
   font-size: .9rem;
 }
 
-.copyright {
+.footer-dev {
+  grid-row: 2;
+  grid-column: 4 / span 2;
+  margin-top: 12rem;
+  margin-left: auto;
+  margin-right: auto;
   font-size: .9rem;
 }
