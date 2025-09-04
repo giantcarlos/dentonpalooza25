@@ -20,14 +20,18 @@ body {
   margin: 0;
   font-family: Arial Black, Helvetica, Arial, sans-serif;
   background-color: black;
-  color: rgb(220, 220, 220);
+  color: rgb(225, 225, 210);
   text-align: center;
   overflow-x: hidden;
 }
 
 a {
-  text-decoration: none;
-  color: rgb(12, 12, 12);;
+  color: inherit;
+}
+
+.colors-2 {
+  background-color: rgb(225, 225, 210);
+  color: rgb(20, 20, 20);;
 }
 
 nav a:hover {
@@ -237,4 +241,80 @@ nav {
   100% {
     opacity: 1;
   }
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  margin-right: 8%;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  overflow: hidden;
+  font-size: 1.1rem;
+}
+
+.footer-left {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-left: 7rem;
+  line-height: .9rem;
+}
+
+.footer-mid {
+  grid-column: 3;
+  grid-row: 1;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.footer-right {
+  grid-column: 4;
+  grid-row: 1;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-last {
+  grid-column: 5;
+  grid-row: 1;
+  margin-right: 5rem;
+}
+
+.footer-icon {
+  width: 2rem;
+  margin-right: 1.25rem;
+}
+
+.footer-arrow {
+  border: .9px;
+  border-style: solid;
+  color:rgb(40, 40, 40);
+  padding: .75rem;
+}
+
+.footer-bottom {
+  grid-row: 2;
+  grid-column: span 3;
+  margin-top: 12rem;
+  margin-left: -20rem;
+}
+
+.footer-dev {
+  grid-row: 2;
+  grid-column: span 2;
+  margin-top: 12rem;
+  font-size: .9rem;
+}
+
+.copyright {
+  font-size: .9rem;
 }

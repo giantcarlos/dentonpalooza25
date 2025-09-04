@@ -42,23 +42,23 @@ function Footer() {
         <section id="contact" className="colors-2">
           <motion.div className="footer-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
                 <motion.div variants={item} className="footer-left">
-                    <div className="title">DENTONPALOOZA 5</div>
+                    <div className="address">DENTONPALOOZA 5</div>
                 </motion.div>
                   <motion.div className="footer-mid" variants={item} >
-                        <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >Home</HashLink>
-                        <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >About</HashLink>
-                        <HashLink to="#rooms" className="footer-links" scroll={el => scrollWithOffset(el)} >Rooms</HashLink>
-                        <HashLink to="#amenities" className="footer-links" scroll={el => scrollWithOffset(el)} >Amenities</HashLink>
-                        <HashLink to="#contact" className="footer-links" scroll={el => scrollWithOffset2(el)} >Contact</HashLink>
+                        <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >HOME</HashLink>
+                        <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >TICKETS</HashLink>
+                        <HashLink to="#rooms" className="footer-links" scroll={el => scrollWithOffset(el)} >LINEUP</HashLink>
+                        <HashLink to="#amenities" className="footer-links" scroll={el => scrollWithOffset(el)} >ABOUT</HashLink>
+                        <HashLink to="#contact" className="footer-links" scroll={el => scrollWithOffset2(el)} >BENEFICIARIES</HashLink>
                     </motion.div>
                     <motion.div variants={item} className="footer-right">
                         <div className="follow">Follow us</div>
                         <div className="icon-container">
-                        <a className="details-link" href='https://www.facebook.com/events/796172349539755/' target="_blank">
-                        <img className="footer-icon" variants={item} alt="Facebook icon." src="fb.png" />
-                        </a>
                         <a className="details-link" href='https://www.instagram.com/dentonpalooza/?hl=en' target="_blank">
                             <img className="footer-icon" variants={item} alt="Instagram icon." src="insta.png" />
+                        </a>
+                        <a className="details-link" href='https://www.facebook.com/events/796172349539755/' target="_blank">
+                        <img className="footer-icon" variants={item} alt="Facebook icon." src="fb.png" />
                         </a>
                         </div>
                     </motion.div>
