@@ -42,7 +42,11 @@ function Footer() {
         <section id="contact" className="colors-2">
           <motion.div className="footer-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
                 <motion.div variants={item} className="footer-left">
-                    <div className="address">DENTONPALOOZA 5</div>
+                    <div className="address">
+                       <HashLink to="#" className="footer-logo" scroll={el => scrollWithOffset(el)}> 
+                        DENTONPALOOZA 5
+                        </HashLink>
+                    </div>
                 </motion.div>
                   <motion.div className="footer-mid" variants={item} >
                         <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >HOME</HashLink>
