@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Sponsors from './components/Sponsors';
 import Images from './components/Images';
+import Lineup from './components/Lineup';
+import About from './components/About';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         </header>
           <Sponsors />
           <Images />
+          <Lineup />
+          <About />
           <Footer />  
       </div>
     </BrowserRouter>
