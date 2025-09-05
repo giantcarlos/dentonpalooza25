@@ -47,10 +47,10 @@ const NavBar = () => {
                 <div className="sub-header">October 11, 2025 / Dan's Silverleaf</div>
                 <div className={active} onClick={navOff}>
                     <HashLink smooth to="#" className="links" scroll={el => scrollWithOffset(el)}>HOME ➤</HashLink>
-                    <HashLink smooth to="#lineup" className="links" scroll={el => scrollWithOffset2(el)}>LINEUP ➤</HashLink>
-                    <HashLink smooth to="#tickets" className="links" scroll={el => scrollWithOffset(el)}>TICKETS ➤</HashLink>
-                    <HashLink smooth to="#merch" className="links" scroll={el => scrollWithOffset(el)}>MERCH ➤</HashLink>
-                    <HashLink smooth to="#press" className="links" scroll={el => scrollWithOffset3(el)}>PRESS ➤</HashLink>
+                    <a className="links" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">TICKETS ➤</a>
+                    <HashLink smooth to="#tickets" className="links" scroll={el => scrollWithOffset(el)}>LINEUP ➤</HashLink>
+                    <HashLink smooth to="#merch" className="links" scroll={el => scrollWithOffset(el)}>ABOUT ➤</HashLink>
+                    <HashLink smooth to="#press" className="links" scroll={el => scrollWithOffset3(el)}>BENEFICIARIES ➤</HashLink>
                 </div>
             </motion.div>
         </nav>
