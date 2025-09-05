@@ -50,7 +50,7 @@ function Footer() {
                 </motion.div>
                   <motion.div className="footer-mid" variants={item} >
                         <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >HOME</HashLink>
-                        <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >TICKETS</HashLink>
+                        <a className="details-link" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">TICKETS</a>
                         <HashLink to="#rooms" className="footer-links" scroll={el => scrollWithOffset(el)} >LINEUP</HashLink>
                         <HashLink to="#amenities" className="footer-links" scroll={el => scrollWithOffset(el)} >ABOUT</HashLink>
                         <HashLink to="#contact" className="footer-links" scroll={el => scrollWithOffset2(el)} >BENEFICIARIES</HashLink>
