@@ -22,13 +22,15 @@ function About() {
 
   return (
     <section id="about">
-            <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="home-grid">
-                <motion.img variants={item} className="about-image"  alt="Aerial view of Cagbalete Island." src="art5.png" />
-                <motion.h2 variants={item} className="small-font-2"  >WELCOME TO VILLA NOE BEACH</motion.h2>
+            <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-grid">
+                <motion.img variants={item} className="section-image"  alt="Digital art of Denton A-train with the Dentonpalooza logo and Morrison's Corn Kits above it." src="art5.png" />
+                <div className="section-textbox">
+                <motion.h2 variants={item} className="section-header"  >WELCOME TO VILLA NOE BEACH</motion.h2>
                 <motion.p variants={item} className="paragraph"  >Nestled on the pristine shores of Cagbalete Island in Mauban, Quezon, Villa Noe Beach offers a peaceful retreat with clear waters, white sand, and breathtaking sunrises. Whether you’re here to unwind by the beach, explore the island’s marine life, or simply enjoy the tranquility, our resort provides a comfortable and scenic escape from the everyday.</motion.p>
                 <Link to="/about" className="button-2">
                 <motion.button variants={item} >LEARN MORE</motion.button>
                 </Link>
+                </div>
             </motion.div>
         </section>
   )
