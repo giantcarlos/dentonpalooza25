@@ -1,12 +1,15 @@
 {
   "name": "dentonpalooza25",
+   "homepage": "https://giantcarlos.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
+    "build": "vite build --base=./",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
