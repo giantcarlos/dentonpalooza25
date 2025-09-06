@@ -27,13 +27,14 @@ function Lineup() {
                 <div className="section-textbox"> 
                 <motion.h2 variants={item} className="section-header"  >SCHEDULE</motion.h2>
                 <motion.p variants={item} className="paragraph"  >
-                  Time      | Main Stage<br/>
+                  We’re fine-tuning the set times. Check back soon for the full schedule!
+                  {/* Time      | Main Stage<br/>
                    6:00 PM  | Brotherhood<br />
                    7:00 PM  | Assissted Living<br />
                    8:00 PM  | Matthew and the Arrogant Sea<br />
                    9:00 PM  | Side Chicks<br />
                   10:00 PM | Everything is Terrible<br />
-                  11:00 PM | End of Show<br />
+                  11:00 PM | End of Show<br /> */}
                 </motion.p>
                 <a className="button" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">
                 <motion.button variants={item} >TICKETS</motion.button>
