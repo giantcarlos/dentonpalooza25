@@ -459,6 +459,27 @@ button:hover {
 }
 
 @media only screen and (max-width: 1000px) {
+  nav {
+    padding: .5rem;
+    height: 5.2rem;
+  }
+  .hamburger {
+    margin-top: .55rem;
+    margin-left: .5rem;
+  }
+  .header {
+    font-size: 2rem;
+  }
+  .sub-header {
+    float: none;
+    text-align: left;
+    font-size: .9rem;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+  }
+  .image-grid {
+    margin-top: 5.5rem;
+  }
   .footer-logo {
     font-size: 1.55rem;
   }
@@ -481,6 +502,15 @@ button:hover {
 }
 
 @media only screen and (max-width: 850px) {
+  .nav {
+    padding-bottom: 1rem;
+  }
+  .header {
+    font-size: 1.75rem;
+  }
+  .sub-header {
+    font-size: .8rem;
+  }
   .section-grid {
     grid-template-columns: 1fr;
     padding-top: 4rem;
@@ -559,15 +589,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 500px) {
-  .header {
-    font-size: 1.5rem;
-  }
-  .sub-header {
-    font-size: .75rem;
-    float: right;
-    margin-top: .5rem;
-    margin-right: .5rem;
-  }
   .links {
     font-size: 1.25rem;
     margin-top: 1rem;
