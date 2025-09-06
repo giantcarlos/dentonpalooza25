@@ -51,9 +51,9 @@ function Footer() {
                   <motion.div className="footer-mid" variants={item} >
                         <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >HOME</HashLink>
                         <a className="details-link" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">TICKETS</a>
-                        <HashLink to="#rooms" className="footer-links" scroll={el => scrollWithOffset(el)} >LINEUP</HashLink>
-                        <HashLink to="#amenities" className="footer-links" scroll={el => scrollWithOffset(el)} >ABOUT</HashLink>
-                        <HashLink to="#contact" className="footer-links" scroll={el => scrollWithOffset2(el)} >BENEFICIARIES</HashLink>
+                        <HashLink to="#lineup" className="footer-links" scroll={el => scrollWithOffset2(el)} >LINEUP</HashLink>
+                        <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset2(el)} >ABOUT</HashLink>
+                        <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset2(el)} >BENEFICIARIES</HashLink>
                     </motion.div>
                     <motion.div variants={item} className="footer-right">
                         <div className="follow">Follow us</div>
