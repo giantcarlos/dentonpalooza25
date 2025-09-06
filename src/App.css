@@ -270,6 +270,7 @@ nav {
   font-family: Arial Black;
   text-decoration: none;
 }
+
 .footer-left {
   grid-column: span 2;
   grid-row: 1;
@@ -326,7 +327,7 @@ nav {
 
 .footer-dev {
   grid-row: 2;
-  grid-column: 4 / span 2;
+  grid-column: 3 / span 3;
   margin-top: 12rem;
   margin-right: 2.5rem;
   font-size: .9rem;
@@ -377,22 +378,27 @@ nav {
   margin-top: 1rem;
 }
 
-/* .benficiary-grid {
-  
-  --gap: 28px;
-  --num-cols: 3;
-  --row-height: 70px;
+button {
+  display: block;
+  width: 9rem;
+  height: 3.5rem;
+  color: inherit;
+  font-weight: 600;
+  font-size: 1.4rem;
+  background-color: rgb(193, 236, 84);
+  border-color: rgb(193, 236, 84);
+  cursor: pointer;
+  margin-top: 1.75rem;
+}
 
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 90%;
-  display: grid;
-  grid-template-columns: repeat(var(--num-cols), 1fr);
-  grid-auto-rows: var(--row-height);
-  gap: var(--gap);
-  position: relative;
-} */
+.button {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(160, 200, 60);
+  border-color: rgb(160, 200, 60);
+}
 
 .beneficiary-grid > a > img {
   width: 27.5%;
@@ -403,4 +409,181 @@ nav {
 
 .beneficiary-grid > a > img:hover {
   transform: scale(1.125);
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .footer-logo {
+    font-size: 1.85rem;
+  }
+  .footer-left {
+    margin-left: 6.5rem;
+  }
+  .footer-mid {
+    margin-left: 6rem;
+  }
+  .footer-right {
+    margin-left: 4rem;
+  }
+  
+}
+
+@media only screen and (max-width: 1200px) {
+  .image-grid {
+    --num-cols: 3;
+    --row-height: 60px;
+    padding: 24px;
+    gap: 20px;
+  }
+  .beneficiary-grid > a > img {
+    width: 30%;
+  }
+  .footer-logo {
+    font-size: 1.65rem;
+  }
+  .footer-grid {
+    margin-right: 5%;
+  }
+  .footer-left {
+    margin-left: 4rem;
+  }
+  .footer-mid {
+  margin-left: 5rem;
+  }
+  .footer-right {
+    margin-left: 5rem;
+  }
+  .footer-last {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer-logo {
+    font-size: 1.55rem;
+  }
+  .footer-grid {
+    margin-right: 2%;
+  }
+  .footer-left {
+    margin-left: 3rem;
+  }
+  .footer-mid {
+    margin-left: 4rem;
+  }
+  .footer-right {
+    margin-left: 3rem;
+  }
+  .footer-last {
+    margin-left: 1rem;
+  }
+  
+}
+
+@media only screen and (max-width: 850px) {
+  .section-grid {
+    grid-template-columns: 1fr;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .section-image {
+    grid-column: 1;
+    grid-row: 1;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 2rem;
+  }
+  .section-textbox {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+  }
+  .nav-links, .nav-links-active {
+    width: 60%;
+  }
+  .links {
+    font-size: 1.5rem;
+  }
+   .footer-grid {
+    display: block;
+    padding-top: 4rem;
+    margin-right: 0%;
+  }
+  .footer-logo {
+    font-size: 1.75rem;
+  }
+  .footer-left {
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .footer-mid {
+    display: none;
+  }
+  .footer-right {
+    display: block;
+    text-align:  center;
+    gap: 1.2rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-icon {
+    margin-bottom: 1rem;
+  }
+  .follow {
+    display: none;
+  }
+  .footer-arrow {
+    display: none;
+  }
+  .footer-bottom {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-dev {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    font-size: 1.5rem;
+  }
+  .sub-header {
+    font-size: .75rem;
+    float: right;
+    margin-top: .5rem;
+    margin-right: .5rem;
+  }
+  .links {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .section-image {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .section-textbox {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  button {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
 }

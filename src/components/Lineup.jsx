@@ -35,6 +35,9 @@ function Lineup() {
                   10:00 PM | Everything is Terrible<br />
                   11:00 PM | End of Show<br />
                 </motion.p>
+                <a className="button" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">
+                <motion.button variants={item} >TICKETS</motion.button>
+                </a>
                 </div>
             </motion.div>
         </section>
