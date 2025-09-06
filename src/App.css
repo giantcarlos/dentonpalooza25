@@ -458,6 +458,9 @@ button:hover {
     padding: 24px;
     gap: 20px;
   }
+  .section-textbox {
+  margin-right: 25%;
+}
   .beneficiary-grid > a > img {
     width: 180%;
   }
