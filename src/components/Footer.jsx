@@ -39,7 +39,7 @@ function Footer() {
   }
     
       return (
-        <section id="contact" className="colors-2">
+        <section id="contact" className="colors-3">
           <motion.div className="footer-grid" variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }}>
                 <motion.div variants={item} className="footer-left">
                     <div className="address">

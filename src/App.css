@@ -34,6 +34,11 @@ a {
   color: rgb(20, 20, 20);;
 }
 
+.colors-3 {
+  background-color: rgb(193, 236, 84);
+  color: rgb(20, 20, 20);;
+}
+
 nav a:hover {
   color: rgb(189, 0, 0)
 }
@@ -358,7 +363,7 @@ nav {
 }
 
 .section-header {
-  font-size: 1rem;
+  font-size: 1.75rem;
 }
 
 .paragraph {

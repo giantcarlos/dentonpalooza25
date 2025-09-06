@@ -25,8 +25,16 @@ function Lineup() {
             <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-grid">
                 <motion.img variants={item} className="section-image"  alt="Lineup poster for Dentonpalooza 5." src="DENTONPALOOZA5.png" />
                 <div className="section-textbox"> 
-                <motion.h2 variants={item} className="section-header"  >WELCOME TO VILLA NOE BEACH</motion.h2>
-                <motion.p variants={item} className="paragraph"  >Nestled on the pristine shores of Cagbalete Island in Mauban, Quezon, Villa Noe Beach offers a peaceful retreat with clear waters, white sand, and breathtaking sunrises. Whether you’re here to unwind by the beach, explore the island’s marine life, or simply enjoy the tranquility, our resort provides a comfortable and scenic escape from the everyday.</motion.p>
+                <motion.h2 variants={item} className="section-header"  >SCHEDULE</motion.h2>
+                <motion.p variants={item} className="paragraph"  >
+                  Time      | Main Stage<br/>
+                   6:00 PM  | Brotherhood<br />
+                   7:00 PM  | Assissted Living<br />
+                   8:00 PM  | Matthew and the Arrogant Sea<br />
+                   9:00 PM  | Side Chicks<br />
+                  10:00 PM | Everything is Terrible<br />
+                  11:00 PM | End of Show<br />
+                </motion.p>
                 </div>
             </motion.div>
         </section>
