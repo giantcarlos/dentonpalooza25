@@ -458,14 +458,6 @@ button:hover {
     padding: 24px;
     gap: 20px;
   }
-  .image-container {
-    height: 35rem;
-    margin-top: .75rem;
-    margin-bottom: 1.5rem;
-  }
-  .pic {
-    height: 90%;
-  }
   .section-textbox {
   margin-right: 25%;
 }
@@ -503,25 +495,16 @@ button:hover {
   }
   .header {
     font-size: 2rem;
-    text-align: center;
   }
   .sub-header {
     float: none;
-    text-align: center;
+    text-align: left;
     font-size: .9rem;
     margin-top: .25rem;
     margin-bottom: 1rem;
   }
   .image-grid {
     margin-top: 5.5rem;
-  }
-  .image-container {
-    height: 30rem;
-    margin-top: .75rem;
-    margin-bottom: 1.5rem;
-  }
-  .pic {
-    height: 90%;
   }
   .footer-logo {
     font-size: 1.55rem;
@@ -555,7 +538,7 @@ button:hover {
     font-size: .8rem;
   }
   .image-container {
-    height: 20rem;
+    height: 35rem;
     margin-top: .5rem;
     margin-bottom: 1.5rem;
   }
@@ -590,7 +573,7 @@ button:hover {
   }
   .pic {
     width: 85%;
-    height: 88%;
+    height: 92%;
   }
   .beneficiary-grid > a > img {
     width: 110%;
@@ -652,15 +635,13 @@ button:hover {
     margin-bottom: 1rem;
   }
   .image-container {
-    height: 20rem;
-    margin-top: .75rem;
-    margin-bottom: 1.5rem;
+    height: 36rem;
   }
   .pic {
     width: 90%;
-    height: 85%;
-    margin-left: 5%;
-    margin-right: auto;
+    height: 94%;
+    margin-left: 5%;      
+    margin-right: 5%;
   }
   .section-image {
     width: 90%;
