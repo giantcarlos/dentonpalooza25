@@ -59,7 +59,7 @@ nav {
   position: fixed;
   background-color: rgb(0, 0, 0);
   height: 5.125rem;
-  opacity: 90%;
+  opacity: 95%;
   top: 0;
   right: 0;
   left: 0;
@@ -459,8 +459,8 @@ button:hover {
     gap: 20px;
   }
   .section-textbox {
-  margin-right: 25%;
-}
+    margin-right: 25%;
+  }
   .beneficiary-grid > a > img {
     width: 180%;
   }
@@ -486,7 +486,7 @@ button:hover {
 
 @media only screen and (max-width: 1000px) {
   nav {
-    height: 6.175rem;
+    height: 6.125rem;
   }
   .sub-header {
     float: none;
@@ -628,13 +628,13 @@ g  .image-grid {
     margin-bottom: 1rem;
   }
   .image-container {
-    height: 38rem;
+    height: 36rem;
   }
   .pic {
-    width: 94%;
+    width: 90%;
     height: 94%;
-    margin-left: 3%;      
-    margin-right: 3%;
+    margin-left: 5%;      
+    margin-right: 5%;
   }
   .section-image {
     width: 90%;
