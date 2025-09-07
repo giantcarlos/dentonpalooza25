@@ -490,7 +490,7 @@ button:hover {
   }
   .sub-header {
     float: none;
-    text-align: center;
+    text-align: left;
     font-size: .9rem;
     margin-top: 0;
     margin-right: 0rem;
