@@ -40,7 +40,7 @@ const NavBar = () => {
 
     return (
         <nav>
-            <motion.div variants={item} initial="hidden" animate="show" transition={{duration: 1, delay:.75}} className="header">DENTONPALOOZA 5
+            <motion.div variants={item} initial="hidden" animate="show" transition={{duration: 1, delay:.25}} className="header">DENTONPALOOZA 5
                 <div className="hamburger" onClick={navToggle}>
                 <Hamburger toggled={isOpen} toggle={setOpen}/>
                 </div>

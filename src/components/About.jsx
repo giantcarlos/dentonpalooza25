@@ -38,9 +38,9 @@ function About() {
 
   return (
     <section id="about">
-            <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-grid">
-                <motion.img variants={item} className="section-image"  alt="Digital art of Denton A-train with the Dentonpalooza logo and Morrison's Corn Kits above it." src="art5.png" />
-                <div className="section-textbox">
+            <div className="section-grid">
+                <img className="section-image"  alt="Digital art of Denton A-train with the Dentonpalooza logo and Morrison's Corn Kits above it." src="art5.png" />
+                <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-textbox">
                 <motion.h2 variants={item} className="section-header"  >WHAT IS DENTOPALOOZA?</motion.h2>
                 <motion.p variants={item} className="paragraph"  >DENTONPALOOZA 5 is a charity variety show showcasing the weird and beatiful people and performers in Denton, TX.</motion.p>
                 <motion.h2 variants={item} className="section-header2"  >BENEFICIARIES</motion.h2>
@@ -50,8 +50,8 @@ function About() {
                             <motion.a variants={item2} href='https://dmacdenton.org/'  target="_blank"><img src={"https://i.imgur.com/oxywXQy.png"} alt='logo of Denton Music and Arts Collaborative' /></motion.a>
                             <motion.a variants={item2} href='https://leukemiatexas.org/' className='image-reverse-gray' target="_blank"><img src={"https://i.imgur.com/tZpkoRX.jpeg"} alt='logo of Leukemia Texas' /></motion.a>
                         </motion.div>
-                </div>
-            </motion.div>
+                </motion.div>
+            </div>
         </section>
   )
 }
