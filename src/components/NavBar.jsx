@@ -50,7 +50,7 @@ const NavBar = () => {
                     <a className="links" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">TICKETS</a>
                     <HashLink smooth to="#lineup" className="links" scroll={el => scrollWithOffset2(el)}>SCHEDULE</HashLink>
                     <HashLink smooth to="#about" className="links" scroll={el => scrollWithOffset2(el)}>ABOUT</HashLink>
-                    <HashLink smooth to="#about" className="links" scroll={el => scrollWithOffset2(el)}>BENEFICIARIES</HashLink>
+                    <HashLink smooth to="#beneficiaries" className="links" scroll={el => scrollWithOffset3(el)}>BENEFICIARIES</HashLink>
                 </div>
             </motion.div>
         </nav>

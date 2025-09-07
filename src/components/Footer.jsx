@@ -28,7 +28,7 @@ function Footer() {
   
     const scrollWithOffset2 = (el) => {
       const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-      const yOffset = -40; 
+      const yOffset = -125; 
       window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
   }
   
@@ -53,7 +53,7 @@ function Footer() {
                         <a className="details-link" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">TICKETS</a>
                         <HashLink to="#lineup" className="footer-links" scroll={el => scrollWithOffset3(el)} >SCHEDULE</HashLink>
                         <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >ABOUT</HashLink>
-                        <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >BENEFICIARIES</HashLink>
+                        <HashLink to="#beneficiaries" className="footer-links" scroll={el => scrollWithOffset2(el)} >BENEFICIARIES</HashLink>
                     </motion.div>
                     <motion.div variants={item} className="footer-right">
                         <div className="follow">Follow us</div>

@@ -43,7 +43,7 @@ function About() {
                 <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-textbox">
                 <motion.h2 variants={item} className="section-header"  >WHAT IS DENTOPALOOZA?</motion.h2>
                 <motion.p variants={item} className="paragraph"  >DENTONPALOOZA 5 is a charity variety show showcasing the weird and beatiful people and performers in Denton, TX.</motion.p>
-                <motion.h2 variants={item} className="section-header2"  >BENEFICIARIES</motion.h2>
+                <motion.h2 id="beneficiaries" variants={item} className="section-header2"  >BENEFICIARIES</motion.h2>
                 <motion.p variants={item} className="paragraph"  >All funds raised benefit these organizations:</motion.p>
                 <motion.div variants={container2} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="beneficiary-grid">
                             <motion.a variants={item2} href='https://theartroomdenton.org/' className='image-enlarge' target="_blank"><img src={"https://i.imgur.com/0AK1wnQ.png"} alt='logo of The Artroom Denton' /></motion.a>
