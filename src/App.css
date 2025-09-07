@@ -486,18 +486,14 @@ button:hover {
 
 @media only screen and (max-width: 1000px) {
   nav {
-    padding: .5rem;
-    height: 5.2rem;
-  }
-  .header {
-    font-size: 2rem;
+    height: 6.375rem;
   }
   .sub-header {
     float: none;
-    text-align: left;
+    text-align: center;
     font-size: .9rem;
-    margin-top: .25rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-right: 0rem;
   }
   .image-grid {
     margin-top: 5.5rem;
@@ -524,14 +520,11 @@ button:hover {
 }
 
 @media only screen and (max-width: 850px) {
-  .nav {
-    padding-bottom: 1rem;
-  }
   .header {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
-  .sub-header {
-    font-size: .8rem;
+  .hamburger {
+    margin-right: .5rem;
   }
   .image-container {
     height: 35rem;
