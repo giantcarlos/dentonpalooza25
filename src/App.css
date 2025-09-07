@@ -628,13 +628,13 @@ g  .image-grid {
     margin-bottom: 1rem;
   }
   .image-container {
-    height: 36rem;
+    height: 38rem;
   }
   .pic {
-    width: 90%;
+    width: 94%;
     height: 94%;
-    margin-left: 5%;      
-    margin-right: 5%;
+    margin-left: 3%;      
+    margin-right: 3%;
   }
   .section-image {
     width: 90%;
