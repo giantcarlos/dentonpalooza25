@@ -59,7 +59,7 @@ nav {
   position: fixed;
   background-color: rgb(0, 0, 0);
   height: 5.125rem;
-  opacity: 97.5%;
+  opacity: 92.5%;
   top: 0;
   right: 0;
   left: 0;
@@ -113,7 +113,7 @@ nav {
   left: 0;
   position: fixed;
   background-color: rgb(25, 25, 25);
-  opacity: 97%;
+  opacity: 98%;
   width: 30%;
   height: 100%;
   display: flex;
