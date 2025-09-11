@@ -486,7 +486,7 @@ button:hover {
 
 @media only screen and (max-width: 1000px) {
   nav {
-    height: 6.125rem;
+    height: 5.75rem;
   }
   .sub-header {
     float: none;
