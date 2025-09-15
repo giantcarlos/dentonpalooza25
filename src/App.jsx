@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Sponsors from './components/Sponsors';
 import Images from './components/Images';
 import Lineup from './components/Lineup';
+import Merch from './components/Merch';
 import About from './components/About';
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ function App() {
           <Sponsors />
           <Images />
           <Lineup />
+          <Merch />
           <About />
           <Footer />  
       </div>
