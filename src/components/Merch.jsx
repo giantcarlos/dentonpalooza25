@@ -21,13 +21,13 @@ function Merch() {
   }
 
   return (
-    <section id="merch"className="colors-2">
+    <section id="merch"className="colors-1">
             <div className="section-grid">
-                <img className="section-image"  alt="Lineup poster for Dentonpalooza 5." src="merch.png" />
+                <img className="section-image"  alt="T-Shirt design of Dentonpalooza 5." src="merch.png" />
                 <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-textbox"> 
                 <motion.h2 variants={item} className="section-header"  >MERCH</motion.h2>
                 <motion.p variants={item} className="paragraph"  >
-                  We’re fine-tuning the set times. Check back soon for the full schedule!
+                  We have shirts avaiable for sale from our friends at Pan Ector!
                 </motion.p>
                 <a className="button" href='https://www.panector.com/dentonpalooza' target="_blank">
                 <motion.button variants={item} >BUY NOW</motion.button>

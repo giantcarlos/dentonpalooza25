@@ -29,6 +29,12 @@ a {
   color: inherit;
 }
 
+.colors-1 {
+  background-color: rgb(222, 136, 23);
+  color: rgb(20, 20, 20);;
+}
+
+
 .colors-2 {
   background-color: rgb(225, 225, 210);
   color: rgb(20, 20, 20);;
