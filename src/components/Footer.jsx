@@ -52,6 +52,7 @@ function Footer() {
                         <HashLink to="#" className="footer-links" scroll={el => scrollWithOffset(el)} >HOME</HashLink>
                         <HashLink to="#lineup" className="footer-links" scroll={el => scrollWithOffset3(el)} >SCHEDULE</HashLink>
                         <a className="details-link" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">TICKETS</a>
+                         <HashLink smooth to="#merch" className="footer-links" scroll={el => scrollWithOffset3(el)}>MERCH</HashLink>
                         <HashLink to="#about" className="footer-links" scroll={el => scrollWithOffset3(el)} >ABOUT</HashLink>
                         <HashLink to="#beneficiaries" className="footer-links" scroll={el => scrollWithOffset2(el)} >BENEFICIARIES</HashLink>
                     </motion.div>
