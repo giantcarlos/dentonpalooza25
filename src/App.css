@@ -265,6 +265,26 @@ nav {
   margin-left: 4.45rem;
 }
 
+.highlight-blue {
+  background-color: rgb(48, 167, 235);
+}
+
+.highlight-green {
+  background-color: rgb(193, 236, 84);
+}
+
+.highlight-yellow {
+  background-color: rgb(238, 229, 93);
+}
+
+.highlight-red {
+  background-color: rgb(221, 162, 186);
+}
+
+.highlight-purple {
+  background-color: rgb(189, 167, 210);
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
