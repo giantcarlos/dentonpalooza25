@@ -27,14 +27,20 @@ function Lineup() {
                 <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-textbox"> 
                 <motion.h2 variants={item} className="section-header"  >SCHEDULE</motion.h2>
                 <motion.p variants={item} className="paragraph"  >
-                  We’re fine-tuning the set times. Check back soon for the full schedule!
-                  {/* Time      | Main Stage<br/>
-                   6:00 PM  | Brotherhood<br />
-                   7:00 PM  | Assissted Living<br />
-                   8:00 PM  | Matthew and the Arrogant Sea<br />
-                   9:00 PM  | Side Chicks<br />
-                  10:00 PM | Everything is Terrible<br />
-                  11:00 PM | End of Show<br /> */}
+                  Main Stage Lineup<br/>
+                  06:00 PM Doors open<br />
+                   06:15 PM Brotherhood<br />
+                    <a className="details-link"href='https://www.instagram.com/brotherhood_sucks/' target="_blank">@brotherhood_sucks</a><br />
+                   07:00 PM Assissted Living<br />
+                    <a className="details-link"href='https://www.instagram.com/assistedlivingtx/' target="_blank">@assistedlivingtx</a><br />
+                   08:00 PM Side Chicks<br />
+                    <a className="details-link"href='https://www.instagram.com/chelly_danielle/' target="_blank">@chelly_danielle</a> / <a className="details-link"href='https://www.instagram.com/laurenupshawesq/' target="_blank">@laurenupshawesq</a><br />
+                   09:00 PM Matthew and the Arrogant Sea<br />
+                    <a className="details-link"href='https://www.instagram.com/matthewandthearrogantsea/' target="_blank">@matthewandthearrogantsea</a><br /> 
+                  10:00 PM Everything is Terrible! Live!<br />
+                    <a className="details-link"href='https://www.instagram.com/everythingisterrible666/' target="_blank">@everythingisterrible666</a><br />
+                  11:45 PM Thank you and goodnight<br />
+                  12:00 AM Doors close<br /><br/>
                 </motion.p>
                 <a className="button" href='https://www.prekindle.com/event/17543-dentonpalooza-5-denton' target="_blank">
                 <motion.button variants={item} >TICKETS</motion.button>
