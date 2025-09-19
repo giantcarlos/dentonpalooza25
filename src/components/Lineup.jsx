@@ -30,15 +30,15 @@ function Lineup() {
                   Main Stage Lineup<br/>
                   06:00 PM Doors open<br />
                    06:15 PM Brotherhood<br />
-                    <a className="details-link"href='https://www.instagram.com/brotherhood_sucks/' target="_blank">@brotherhood_sucks</a><br />
+                    <a className="lineup-link"href='https://www.instagram.com/brotherhood_sucks/' target="_blank">@brotherhood_sucks</a><br />
                    07:00 PM Assissted Living<br />
-                    <a className="details-link"href='https://www.instagram.com/assistedlivingtx/' target="_blank">@assistedlivingtx</a><br />
+                    <a className="lineup-link"href='https://www.instagram.com/assistedlivingtx/' target="_blank">@assistedlivingtx</a><br />
                    08:00 PM Side Chicks<br />
-                    <a className="details-link"href='https://www.instagram.com/chelly_danielle/' target="_blank">@chelly_danielle</a> / <a className="details-link"href='https://www.instagram.com/laurenupshawesq/' target="_blank">@laurenupshawesq</a><br />
+                    <a className="lineup-link"href='https://www.instagram.com/chelly_danielle/' target="_blank">@chelly_danielle</a> / <a className="details-link"href='https://www.instagram.com/laurenupshawesq/' target="_blank">@laurenupshawesq</a><br />
                    09:00 PM Matthew and the Arrogant Sea<br />
-                    <a className="details-link"href='https://www.instagram.com/matthewandthearrogantsea/' target="_blank">@matthewandthearrogantsea</a><br /> 
+                    <a className="lineup-link"href='https://www.instagram.com/matthewandthearrogantsea/' target="_blank">@matthewandthearrogantsea</a><br /> 
                   10:00 PM Everything is Terrible! Live!<br />
-                    <a className="details-link"href='https://www.instagram.com/everythingisterrible666/' target="_blank">@everythingisterrible666</a><br />
+                    <a className="lineup-link"href='https://www.instagram.com/everythingisterrible666/' target="_blank">@everythingisterrible666</a><br />
                   11:45 PM Thank you and goodnight<br />
                   12:00 AM Doors close<br /><br/>
                 </motion.p>

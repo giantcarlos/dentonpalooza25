@@ -261,6 +261,10 @@ nav {
   }
 }
 
+.lineup-link {
+  margin-left: 4.45rem;
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
