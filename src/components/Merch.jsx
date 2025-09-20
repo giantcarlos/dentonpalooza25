@@ -27,7 +27,7 @@ function Merch() {
                 <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-textbox"> 
                 <motion.h2 variants={item} className="section-header"  >MERCHANDISE</motion.h2>
                 <motion.p variants={item} className="paragraph"  >
-                  We have shirts avaiable for sale from our friends at Pan Ector!
+                  We have shirts avaiable for sale from our friends at <a className="details-link" href='https://www.panector.com/' target="_blank">Pan Ector</a>!
                 </motion.p>
                 <a className="button" href='https://www.panector.com/dentonpalooza' target="_blank">
                 <motion.button variants={item} >BUY NOW</motion.button>
