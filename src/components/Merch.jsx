@@ -27,7 +27,7 @@ function Merch() {
                 <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ amount: .45, once: true }} className="section-textbox"> 
                 <motion.h2 variants={item} className="section-header"  >MERCHANDISE</motion.h2>
                 <motion.p variants={item} className="paragraph"  >
-                  Preorder t-shirt sales have been printed and we are no longer taking orders.
+                  Preorder merch have been printed and we are no longer taking orders.
                   Thank you to our friends at <a className="details-link" href='https://www.panector.com/' target="_blank">Pan Ector</a>!
                 </motion.p>
                 </motion.div>
